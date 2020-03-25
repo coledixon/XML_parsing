@@ -14,12 +14,14 @@ namespace XML_parseForm
     public partial class XMLparser : Form
     {
         public bool infoFound; // validate returned XML info
+        string prevSearch; // global to compare new search val without form clear
 
         public XMLparser()
         {
             InitializeComponent();
         }
 
+        #region buttonEvents
         private void btnSearch_Click(object sender, EventArgs e)
         {
             infoFound = false; // default
@@ -31,6 +33,10 @@ namespace XML_parseForm
                 XmlDocument doc = new XmlDocument();
                 doc.Load("Films.xml");
 
+                if (string.IsNullOrEmpty(prevSearch)) { prevSearch = txtSearch.Text; }
+
+                if (!CompareSearchCriteria(prevSearch, txtSearch.Text)) { lvOutput.Items.Clear(); } // clear list elements on new search criteria
+
                 // iterate through nodes in file
                 foreach (XmlNode node in doc.DocumentElement)
                 {
@@ -39,6 +45,7 @@ namespace XML_parseForm
                     if (title.ToLower() == txtSearch.Text.ToLower()) // compare input val to XML file nodes
                     {
                         infoFound = true;
+                        prevSearch = title;
 
                         foreach (XmlNode child in node.ChildNodes)
                         {
@@ -67,10 +74,27 @@ namespace XML_parseForm
             }
         }
 
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearForm();
+        }
+        #endregion buttonevents
+
+
+        #region helpers
         private void ClearForm()
         {
             if (!string.IsNullOrEmpty(txtSearch.Text)) { txtSearch.Text = string.Empty; }
             if (lvOutput.Items.Count > 0) { lvOutput.Clear(); }
         }
+
+        private bool CompareSearchCriteria(string prev, string curr)
+        {
+            if (prev == curr) { return true; }
+            else { return false; }
+        }
+
+        #endregion helpers
+
     }
 }
