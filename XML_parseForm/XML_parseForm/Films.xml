@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <film name="Jaws">
+    <year>1975</year>
+    <director>Steven Spielberg</director>
+    <cast>Roy Scheider;Richard Dreyfuss;Robert Shaw</cast>
+    <imdb>8/10</imdb>
+    <rottenTomatoes>98</rottenTomatoes>
+    <metacritic>87</metacritic>
+  </film>
+  <film name="Blade Runner">
+    <year>1982</year>
+    <director>Ridley Scott</director>
+    <cast>Harrison Ford;Sean Young;Rutger Hauer</cast>
+    <imdb>8.1/10</imdb>
+    <rottenTomatoes>90%</rottenTomatoes>
+    <metacritic>84</metacritic>
+  </film>
+  <film name="The Life Aquatic (with Steve Zissou)">
+    <year>2004</year>
+    <director>Wes Anderson</director>
+    <cast>Bill Murray;Owen Wilson;Cate Blanchett</cast>
+    <imdb>7.3/10</imdb>
+    <rottenTomatoes>56%</rottenTomatoes>
+    <metacritic>62</metacritic>
+  </film>
+  <film name="The Day the Earth Stood Still">
+    <year>1951</year>
+    <director>Robert Wise</director>
+    <cast>Michael Rennie;Lock Martin;Patricia Neal</cast>
+    <imdb>7.7/10</imdb>
+    <rottenTomatoes>95%</rottenTomatoes>
+    <metacritic>NO DATA</metacritic>
+  </film>
+  <film name="A Clockwork Orange">
+    <year>1971</year>
+    <director>Stanley Kubrick</director>
+    <cast>Malcolm McDowell;Patrick Magee;Carl Duering</cast>
+    <imdb>8.3/10</imdb>
+    <rottenTomatoes>87%</rottenTomatoes>
+    <metacritic>80</metacritic>
+  </film>
+</root>
