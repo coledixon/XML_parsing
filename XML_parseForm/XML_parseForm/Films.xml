@@ -15,7 +15,7 @@
     <rottenTomatoes>90%</rottenTomatoes>
     <metacritic>84</metacritic>
   </film>
-  <film name="The Life Aquatic (with Steve Zissou)">
+  <film name="The Life Aquatic">
     <year>2004</year>
     <director>Wes Anderson</director>
     <cast>Bill Murray;Owen Wilson;Cate Blanchett</cast>
@@ -38,5 +38,37 @@
     <imdb>8.3/10</imdb>
     <rottenTomatoes>87%</rottenTomatoes>
     <metacritic>80</metacritic>
+  </film>
+  <film name="Jurassic Park">
+    <year>1993</year>
+    <director>Steven Spielberg</director>
+    <cast>Sam Neill;Jeff Goldblum;Richard Attenborough</cast>
+    <imdb>8.1/10</imdb>
+    <rottenTomatoes>91%</rottenTomatoes>
+    <metacritic>68</metacritic>
+  </film>
+  <film name="Jojo Rabbit">
+    <year>2019</year>
+    <director>Taika Waititi</director>
+    <cast>Roman Griffin Davis;Scarlett Johansson;Thomasin McKenzie</cast>
+    <imdb>8/10</imdb>
+    <rottenTomatoes>80%</rottenTomatoes>
+    <metacritic>58</metacritic>
+  </film>
+  <film name="The Favourite">
+    <year>2018</year>
+    <director>Yorgos Lanthimos</director>
+    <cast>Olivia Coleman;Emma Stone;Rachel Weisz</cast>
+    <imdb>7.6/10</imdb>
+    <rottenTomatoes>93%</rottenTomatoes>
+    <metacritic>90</metacritic>
+  </film>
+  <film name="There Will Be Blood">
+    <year>2007</year>
+    <director>Paul Thomas Anderson</director>
+    <cast>Daniel Day Lewis;Paul Dano;Dillon Freasier</cast>
+    <imdb>8.2/10</imdb>
+    <rottenTomatoes>91%</rottenTomatoes>
+    <metacritic>93</metacritic>
   </film>
 </root>
