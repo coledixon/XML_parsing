@@ -24,8 +24,8 @@ namespace XML_parseForm
         {
             infoFound = false; // default
 
-            // validate input has value and is more than 3 chars
-            if (!string.IsNullOrEmpty(txtSearch.Text) && txtSearch.Text.Length >= 3)
+            // validate input has value
+            if (!string.IsNullOrEmpty(txtSearch.Text))
             {
                 // instantiate XML doc
                 XmlDocument doc = new XmlDocument();
@@ -42,8 +42,15 @@ namespace XML_parseForm
 
                         foreach (XmlNode child in node.ChildNodes)
                         {
-                            lvOutput.Items.Add(child.InnerText); // output to listView
+                            if (child.InnerText.Contains(";"))
+                            {
+                                child.InnerText = child.InnerText.Replace(";", ", "); // replace semicolon delineation
+                            }
+                            string output = (child.Name.ToUpper() + " - " + child.InnerText); // format output
+                            lvOutput.Items.Add(output); // output to listView
                         }
+
+                        txtSearch.Text = title.ToUpper();
                     }
                 }
             }
