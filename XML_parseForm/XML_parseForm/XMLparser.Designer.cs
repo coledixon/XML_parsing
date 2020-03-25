@@ -31,6 +31,7 @@
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lvOutput = new System.Windows.Forms.ListView();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtSearch
@@ -60,12 +61,23 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(12, 385);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(599, 40);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "CLEAR";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // XMLparser
             // 
             this.AcceptButton = this.btnSearch;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 383);
+            this.ClientSize = new System.Drawing.Size(623, 437);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.lvOutput);
             this.Controls.Add(this.txtSearch);
@@ -81,6 +93,7 @@
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.ListView lvOutput;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
