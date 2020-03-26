@@ -81,6 +81,9 @@ namespace XML_parseForm
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            Admin frm = new Admin();
+            frm.Show();
+
             // ref Admin form
             // instantiate
                 // form saves new films to existing XML file
