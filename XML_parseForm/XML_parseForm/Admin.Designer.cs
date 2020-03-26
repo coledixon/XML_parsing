@@ -51,56 +51,60 @@
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(69, 22);
+            this.txtTitle.Location = new System.Drawing.Point(72, 24);
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(456, 26);
             this.txtTitle.TabIndex = 0;
             // 
             // txtYear
             // 
-            this.txtYear.Location = new System.Drawing.Point(153, 54);
+            this.txtYear.Location = new System.Drawing.Point(157, 61);
+            this.txtYear.MaxLength = 4;
             this.txtYear.Name = "txtYear";
             this.txtYear.Size = new System.Drawing.Size(68, 26);
             this.txtYear.TabIndex = 1;
             // 
             // txtDirector
             // 
-            this.txtDirector.Location = new System.Drawing.Point(111, 86);
+            this.txtDirector.Location = new System.Drawing.Point(115, 98);
             this.txtDirector.Name = "txtDirector";
             this.txtDirector.Size = new System.Drawing.Size(414, 26);
             this.txtDirector.TabIndex = 2;
             // 
             // txtCast
             // 
-            this.txtCast.Location = new System.Drawing.Point(69, 118);
+            this.txtCast.Location = new System.Drawing.Point(73, 137);
             this.txtCast.Name = "txtCast";
             this.txtCast.Size = new System.Drawing.Size(456, 26);
             this.txtCast.TabIndex = 3;
             // 
             // txtImdb
             // 
-            this.txtImdb.Location = new System.Drawing.Point(69, 150);
+            this.txtImdb.Location = new System.Drawing.Point(72, 174);
+            this.txtImdb.MaxLength = 3;
             this.txtImdb.Name = "txtImdb";
             this.txtImdb.Size = new System.Drawing.Size(36, 26);
             this.txtImdb.TabIndex = 4;
             // 
             // txtTomato
             // 
-            this.txtTomato.Location = new System.Drawing.Point(186, 182);
+            this.txtTomato.Location = new System.Drawing.Point(318, 174);
+            this.txtTomato.MaxLength = 3;
             this.txtTomato.Name = "txtTomato";
             this.txtTomato.Size = new System.Drawing.Size(35, 26);
             this.txtTomato.TabIndex = 5;
             // 
             // txtCritic
             // 
-            this.txtCritic.Location = new System.Drawing.Point(124, 214);
+            this.txtCritic.Location = new System.Drawing.Point(500, 174);
+            this.txtCritic.MaxLength = 3;
             this.txtCritic.Name = "txtCritic";
-            this.txtCritic.Size = new System.Drawing.Size(53, 26);
+            this.txtCritic.Size = new System.Drawing.Size(29, 26);
             this.txtCritic.TabIndex = 6;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(12, 255);
+            this.btnAdd.Location = new System.Drawing.Point(19, 217);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(165, 50);
             this.btnAdd.TabIndex = 7;
@@ -110,7 +114,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(186, 255);
+            this.btnClear.Location = new System.Drawing.Point(193, 217);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(165, 50);
             this.btnClear.TabIndex = 8;
@@ -120,7 +124,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(360, 255);
+            this.btnClose.Location = new System.Drawing.Point(367, 217);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(165, 50);
             this.btnClose.TabIndex = 9;
@@ -131,7 +135,7 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(12, 22);
+            this.lblTitle.Location = new System.Drawing.Point(15, 24);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(52, 20);
             this.lblTitle.TabIndex = 10;
@@ -140,7 +144,7 @@
             // lblYear
             // 
             this.lblYear.AutoSize = true;
-            this.lblYear.Location = new System.Drawing.Point(12, 54);
+            this.lblYear.Location = new System.Drawing.Point(16, 61);
             this.lblYear.Name = "lblYear";
             this.lblYear.Size = new System.Drawing.Size(134, 20);
             this.lblYear.TabIndex = 11;
@@ -149,7 +153,7 @@
             // lblDirector
             // 
             this.lblDirector.AutoSize = true;
-            this.lblDirector.Location = new System.Drawing.Point(12, 86);
+            this.lblDirector.Location = new System.Drawing.Point(16, 98);
             this.lblDirector.Name = "lblDirector";
             this.lblDirector.Size = new System.Drawing.Size(93, 20);
             this.lblDirector.TabIndex = 12;
@@ -158,7 +162,7 @@
             // lblCast
             // 
             this.lblCast.AutoSize = true;
-            this.lblCast.Location = new System.Drawing.Point(12, 118);
+            this.lblCast.Location = new System.Drawing.Point(16, 137);
             this.lblCast.Name = "lblCast";
             this.lblCast.Size = new System.Drawing.Size(51, 20);
             this.lblCast.TabIndex = 13;
@@ -167,7 +171,7 @@
             // lblImdb
             // 
             this.lblImdb.AutoSize = true;
-            this.lblImdb.Location = new System.Drawing.Point(12, 150);
+            this.lblImdb.Location = new System.Drawing.Point(15, 174);
             this.lblImdb.Name = "lblImdb";
             this.lblImdb.Size = new System.Drawing.Size(50, 20);
             this.lblImdb.TabIndex = 14;
@@ -176,7 +180,7 @@
             // lblTomatoes
             // 
             this.lblTomatoes.AutoSize = true;
-            this.lblTomatoes.Location = new System.Drawing.Point(12, 182);
+            this.lblTomatoes.Location = new System.Drawing.Point(147, 177);
             this.lblTomatoes.Name = "lblTomatoes";
             this.lblTomatoes.Size = new System.Drawing.Size(165, 20);
             this.lblTomatoes.TabIndex = 15;
@@ -185,7 +189,7 @@
             // lblCritic
             // 
             this.lblCritic.AutoSize = true;
-            this.lblCritic.Location = new System.Drawing.Point(12, 214);
+            this.lblCritic.Location = new System.Drawing.Point(388, 177);
             this.lblCritic.Name = "lblCritic";
             this.lblCritic.Size = new System.Drawing.Size(106, 20);
             this.lblCritic.TabIndex = 16;
@@ -194,7 +198,7 @@
             // lblImdb2
             // 
             this.lblImdb2.AutoSize = true;
-            this.lblImdb2.Location = new System.Drawing.Point(107, 153);
+            this.lblImdb2.Location = new System.Drawing.Point(110, 177);
             this.lblImdb2.Name = "lblImdb2";
             this.lblImdb2.Size = new System.Drawing.Size(31, 20);
             this.lblImdb2.TabIndex = 17;
@@ -203,7 +207,7 @@
             // lblTomatoes2
             // 
             this.lblTomatoes2.AutoSize = true;
-            this.lblTomatoes2.Location = new System.Drawing.Point(227, 185);
+            this.lblTomatoes2.Location = new System.Drawing.Point(359, 177);
             this.lblTomatoes2.Name = "lblTomatoes2";
             this.lblTomatoes2.Size = new System.Drawing.Size(23, 20);
             this.lblTomatoes2.TabIndex = 18;
@@ -213,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 331);
+            this.ClientSize = new System.Drawing.Size(550, 295);
             this.Controls.Add(this.lblTomatoes2);
             this.Controls.Add(this.lblImdb2);
             this.Controls.Add(this.lblCritic);

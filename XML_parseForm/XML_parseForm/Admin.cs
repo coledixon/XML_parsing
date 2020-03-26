@@ -34,5 +34,12 @@ namespace XML_parseForm
             // CLOSE / DISPOSE FORM
         }
         #endregion buttonEvents
+
+        #region helpers
+        public void ClearForm()
+        {
+            
+        }
+        #endregion helpers
     }
 }
